@@ -253,10 +253,11 @@ section.main-container {
 
 .contact-me a {
   text-decoration: none;
-  background: #44488e;
+  background-color: #0035a0;
   color: #fff;
   padding: 15px;
   text-transform: uppercase;
+  border-radius: 10px;
 }
 
 .contact hr,
@@ -279,8 +280,6 @@ hr {
 
 /* Footer */
 .footer {
-  /* display: grid;
-  grid-template-columns: repeat(3, 1fr); */
   background: #0035a0;
   color: #ddd;
   font-family: "Open Sans", sans-serif;
@@ -295,17 +294,25 @@ hr {
   color: #ddd;
 }
 
+.footer i.fab {
+  margin-bottom: 20px;
+}
+
 .about-footer.copyright {
   text-align: center;
+}
+
+.about-footer {
+  padding: 20px 0;
+}
+
+.footer.about-footer {
+  padding: 20px 0;
 }
 
 .about-footer .fab:hover {
   color: #000;
 }
-
-/* .copyright .fas {
-  padding-right: 1em;
-} */
 
 /* Home- Services */
 .my-services {
@@ -337,7 +344,6 @@ hr {
   box-sizing: border-box;
   border-radius: 8px;
   text-align: center;
-  box-shadow: 10px 12px 20px 0px #000;
   color: #000;
   margin: 10em 30em;
   font-family: "Open Sans", sans-serif;
@@ -370,7 +376,8 @@ hr {
 
 .btn {
   display: inline-block;
-  background: #44488e;
+  background-color: #0035a0;
+  border-radius: 10px;
   padding: 14px 0;
   color: #fff;
   text-transform: uppercase;
