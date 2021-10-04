@@ -62,7 +62,7 @@
 
 /* banner */
 .main-banner {
-  background-image: url(/image/bali.jpg);
+  background-image: url(../image/bali.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
