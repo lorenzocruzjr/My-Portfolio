@@ -1,0 +1,548 @@
+/* Fonts Google */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&display=swap");
+/* CSS rules to specify families  */
+/* font-family: 'Open Sans', sans-serif; */
+
+/* header */
+.header {
+  background-color: #0035a0;
+  position: sticky;
+  padding: 0 30px;
+  height: 65px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  position: sticky;
+  z-index: 2;
+  top: 0;
+}
+
+.header li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.2em;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 7px;
+}
+
+.logo img {
+  max-height: 50px;
+  border-radius: 50%;
+}
+
+.header .main-menu {
+  margin-top: 20px;
+}
+
+.main-menu ul li {
+  padding: 0 10px;
+}
+
+.menu-social-media {
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.main-menu ul li,
+.menu-social-media ul {
+  display: inline;
+}
+
+.main-menu li.active {
+  font-weight: 600;
+}
+
+.main-menu a:hover {
+  color: #ddd;
+}
+
+/* banner */
+.main-banner {
+  background-image: url(/image/bali.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  height: 100vh;
+  /* flex-direction: column;
+  justify-content: center; */
+  text-align: center;
+  display: flex;
+  overflow: hidden;
+}
+
+.banner {
+  line-height: 1.6;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(14 14 48 / 60%);
+  justify-content: center;
+}
+
+.banner h1 {
+  font-size: 60px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #fff;
+  padding-top: 200px;
+}
+
+.banner p {
+  font-size: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #fff;
+}
+
+a.button {
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  border: #000 1px solid;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: sans-serif;
+  background-color: #0035a0;
+  border-color: #0035a0;
+}
+
+a.button:hover {
+  background-color: #0947c5;
+  border-color: #0947c5;
+  color: #fff;
+}
+
+.download-cv {
+  border: #000 1px solid;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  background: none;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+  background-color: #0035a0;
+  border-color: #0035a0;
+}
+
+.download-cv:hover {
+  background-color: #0947c5;
+  border-color: #0947c5;
+  color: #fff;
+}
+
+.social {
+  margin-top: 20px;
+  letter-spacing: 5px;
+}
+
+.social ul li {
+  margin-bottom: 20px;
+}
+
+/* Home-Container */
+.home-container {
+  color: #000;
+}
+
+/* Portfolio-items */
+.portfolio-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5em;
+  margin: 100px 100px;
+  padding-bottom: 1em;
+}
+
+.portfolio-item {
+  text-align: center;
+}
+
+.portfolio-item img {
+  height: 15em;
+  width: 15em;
+  opacity: 0.7;
+}
+
+.portfolio-image img:hover {
+  opacity: 1;
+}
+
+.portfolio-item p {
+  color: #000;
+  font-family: "Open Sans", sans-serif;
+  padding: 0 20px;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+
+.article-home {
+  background: #ddd;
+}
+
+/* Home-Container */
+.home-container img {
+  max-height: 400px;
+}
+
+.home-container p {
+  padding: 1em;
+}
+
+.home-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  background: #eee;
+  color: #000;
+  box-shadow: 0 0 20px #000;
+}
+
+.home-container img,
+.home-container p {
+  border: 0 #000 solid;
+}
+
+section.main-container {
+  padding: 200px;
+}
+
+.article-home h2 {
+  color: #fff;
+  background-color: #163166;
+  text-align: center;
+  width: 100%;
+  font-size: 40px;
+  padding: 40px 20px;
+  box-shadow: 0px 10px 20px #292c5c;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  width: auto;
+}
+
+/* profile */
+.contact-me p {
+  font-size: 25px;
+  color: #000;
+  text-decoration: underline;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.contact h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  text-align: center;
+  background: #eee;
+  margin: 50px 200px;
+  padding: 15px 0;
+  box-shadow: 0 0 20px #000;
+}
+
+.contact-me {
+  margin: 200px;
+  text-align: center;
+}
+
+.contact-me a {
+  text-decoration: none;
+  background: #44488e;
+  color: #fff;
+  padding: 15px;
+  text-transform: uppercase;
+}
+
+.contact hr,
+hr {
+  border-top: 5px solid #292c5c;
+}
+
+.hire {
+  margin: 50px 200px;
+}
+
+.hire img {
+  width: 100%;
+  box-shadow: 0 0 20px #000;
+}
+
+.video {
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr); */
+  background: #0035a0;
+  color: #ddd;
+  font-family: "Open Sans", sans-serif;
+}
+
+.footer a {
+  padding: 20px;
+}
+
+.footer .fab {
+  font-size: 30px;
+  color: #ddd;
+}
+
+.about-footer.copyright {
+  text-align: center;
+}
+
+.about-footer .fab:hover {
+  color: #000;
+}
+
+/* .copyright .fas {
+  padding-right: 1em;
+} */
+
+/* Home- Services */
+.my-services {
+  width: auto;
+}
+
+.my-services a {
+  border-radius: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: #0035a0;
+  color: #fff;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.contact-me a:hover,
+.btn:hover,
+.my-services a:hover {
+  background-color: #0947c5;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Contact-Form */
+.contact-form {
+  background: #f1f1f1;
+  padding: 30px 40px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 10px 12px 20px 0px #000;
+  color: #000;
+  margin: 10em 30em;
+  font-family: "Open Sans", sans-serif;
+}
+
+.txtb {
+  border: 1px solid gray;
+  margin: 8px 0;
+  padding: 12px 18px;
+  border-radius: 8px;
+}
+
+.txtb label {
+  display: block;
+  text-align: left;
+  color: #333;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.txtb input,
+.txtb textarea {
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 18px;
+  margin-top: 6px;
+}
+
+.btn {
+  display: inline-block;
+  background: #44488e;
+  padding: 14px 0;
+  color: #fff;
+  text-transform: uppercase;
+  width: 100%;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.map {
+  text-align: center;
+  margin: 5em 0;
+}
+
+.map p {
+  font-size: 30px;
+  color: #000;
+  padding: 20px 0;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+}
+
+.carousel-item {
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* -webkit-background-size: cover; */
+  /* background-size: cover; */
+  background: no-repeat center scroll;
+  height: 50rem;
+  position: relative;
+}
+
+.carousel-caption {
+  font-family: "Open Sans", sans-serif;
+}
+
+.carousel-inner {
+  background: #000;
+}
+
+.carousel-fade .carousel-item {
+  opacity: 0;
+  transition-duration: 1.5s;
+}
+
+.carousel-caption p {
+  margin-bottom: 0;
+  letter-spacing: 5px;
+}
+
+/* Media Query Declaration & Must be bottom at CSS file*/
+/* @media all - all kind of devices */
+/* @media screen - for Desktops, Tablets and Smartphones */
+/* @media print - for printers */
+/* @media speech - for screen readers */
+/* @media (leave it blank) - to apply all METHOD TYPES */
+
+/* 1200px for desktop */
+/* 768px for ipad */
+/* 600px for tablet*/
+/* 480px for smart phone*/
+/* 320px for smart phone*/
+
+/* Sample Basis 1 (will remove later) */
+/* @media (max-width: 600px) {
+  .banner h1 {
+    font-size: 20px;
+    color: #fff;
+  }
+} */
+/* Sample basis 2 (will remove later) */
+/* @media (min-width: 720px) {
+  .banner h1 {
+    color: red;
+  }
+} */
+
+@media (max-width: 768px) {
+  .main-menu a {
+    font-size: 10px;
+  }
+  i.fab {
+    font-size: 15px;
+  }
+  .logo img {
+    max-height: 40px;
+  }
+  .banner h1 {
+    font-size: 42px;
+  }
+  .banner p {
+    font-size: 20px;
+  }
+  a.button {
+    font-size: 15px;
+  }
+  .social {
+    letter-spacing: 2px;
+  }
+  .download-cv {
+    letter-spacing: 1px;
+    font-size: 14px;
+  }
+  h2.my-services {
+    width: auto;
+    font-size: 28px;
+  }
+  h2.my-services a {
+    font-size: 12px;
+  }
+  .portfolio-items {
+    display: block;
+  }
+  .portfolio-item img {
+    height: 12em;
+    width: 12em;
+  }
+  .portfolio-item p {
+    padding: 0 60px 50px 60px;
+    letter-spacing: 0.5px;
+  }
+  .portfolio-item img:hover {
+    transform: scale(1.1);
+  }
+  .contact-form {
+    margin: 118px;
+  }
+  .txtb {
+    margin: 2px 0;
+  }
+  .txtb label {
+    font-size: 10px;
+  }
+  .txtb input,
+  txtb textarea {
+    font-size: 12px;
+  }
+  .btn {
+    font-size: 12px;
+    padding: 10px 0;
+  }
+  .footer {
+    font-size: 7px;
+  }
+  .footer p {
+    margin: 0;
+  }
+  .footer .copyright {
+    margin: 1.5em;
+  }
+  .contact h3 {
+    margin: 20px 0;
+  }
+  .carousel-item {
+    max-height: 35em;
+  }
+  .video video {
+    width: 400px;
+  }
+  .contact-me p {
+    font-size: 18px;
+  }
+  .contact-me a {
+    padding: 8px;
+    font-size: 13px;
+  }
+  i.fab {
+    font-size: 12px;
+  }
+  .copyright p {
+    font-size: 8px;
+  }
+  .map p {
+    font-size: 20px;
+  }
+}
