@@ -571,6 +571,12 @@ hr {
   .portfolio-item p {
     padding: 20px 0;
   }
+  .footer .fab {
+    font-size: 20px;
+  }
+  .copyright p {
+    font-size: 9px;
+  }
 }
 
 @media (max-width: 480px) {
