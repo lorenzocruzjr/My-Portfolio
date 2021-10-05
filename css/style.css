@@ -568,6 +568,9 @@ hr {
   h2.my-services a {
     font-size: 10px;
   }
+  .portfolio-item p {
+    padding: 20px 0;
+  }
 }
 
 @media (max-width: 480px) {
