@@ -440,20 +440,6 @@ hr {
 /* 480px for smart phone*/
 /* 320px for smart phone*/
 
-/* Sample Basis 1 (will remove later) */
-/* @media (max-width: 600px) {
-  .banner h1 {
-    font-size: 20px;
-    color: #fff;
-  }
-} */
-/* Sample basis 2 (will remove later) */
-/* @media (min-width: 720px) {
-  .banner h1 {
-    color: red;
-  }
-} */
-
 @media (max-width: 768px) {
   .main-menu a {
     font-size: 10px;
