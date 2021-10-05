@@ -553,3 +553,36 @@ hr {
     font-size: 20px;
   }
 }
+
+@media (max-width: 600px) {
+  .header {
+    grid-template-columns: 250px auto auto 0;
+  }
+  .header .logo {
+    margin-top: 10px;
+  }
+  .logo img {
+    max-height: 35px;
+  }
+  .header li a {
+    font-size: 12px;
+  }
+  .banner h1 {
+    font-size: 35px;
+  }
+  .banner p {
+    font-size: 18px;
+  }
+  .banner li a {
+    font-size: 12px;
+  }
+  .banner .download-cv {
+    font-size: 10px;
+  }
+  .article-home h2.my-services {
+    font-size: 20px;
+  }
+  h2.my-services a {
+    font-size: 10px;
+  }
+}
