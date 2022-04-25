@@ -435,11 +435,9 @@ hr {
 /* @media (leave it blank) - to apply all METHOD TYPES */
 
 /* 1200px for desktop */
-/* 768px for ipad */
-/* 600px for tablet*/
-/* 480px for smart phone*/
 /* 320px for smart phone*/
 
+/* 768px for ipad */
 @media (max-width: 768px) {
   .main-menu a {
     font-size: 10px;
@@ -537,6 +535,7 @@ hr {
   }
 }
 
+/* 600px for tablet*/
 @media (max-width: 600px) {
   .header {
     grid-template-columns: 250px auto auto 0;
@@ -583,19 +582,20 @@ hr {
   }
 }
 
+/* 480px for smart phone*/
 @media (max-width: 480px) {
   .header {
     display: flex;
   }
   .header li a {
-    font-size: 8px;
+    font-size: 10px;
     letter-spacing: 0;
   }
   .main-menu {
     width: 50%;
   }
   .main-menu ul li {
-    padding: 0 5px 0 0;
+    padding: 0 15px 0 0;
   }
   .contact-me {
     margin: 20px;
